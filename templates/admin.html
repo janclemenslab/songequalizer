@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .dashboard {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .stats {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        .download-button {
+            background-color: #007BFF;
+        }
+        .back-button {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    
+    <div class="dashboard">
+        <h2>Response Statistics</h2>
+        <div class="stats">
+            <p>Total Responses: <strong>{{ response_count }}</strong></p>
+        </div>
+        
+        <div>
+            <a href="/download-responses" class="button download-button">Download All Responses</a>
+        </div>
+    </div>
+    
+    <div>
+        <a href="/" class="button back-button">Back to Experiment</a>
+    </div>
+</body>
+</html>

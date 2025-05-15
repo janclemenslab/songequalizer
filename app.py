@@ -112,5 +112,25 @@ async def download_responses():
             status_code=404
         )
 
+@app.get("/admin", response_class=HTMLResponse)
+async def admin(request: Request):
+    """Admin page to monitor responses and download data"""
+    response_count = 0
+    if os.path.exists(RESPONSES_FILE):
+        with open(RESPONSES_FILE, "r") as f:
+            try:
+                responses = json.load(f)
+                response_count = len(responses)
+            except json.JSONDecodeError:
+                response_count = 0
+    
+    return templates.TemplateResponse(
+        "admin.html", 
+        {
+            "request": request,
+            "response_count": response_count
+        }
+    )
+
 if __name__ == "__main__":
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
