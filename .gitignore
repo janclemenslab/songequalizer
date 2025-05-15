@@ -49,3 +49,6 @@ Thumbs.db
 
 # Data files
 *.h5
+
+
+.claude
