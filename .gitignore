@@ -46,3 +46,6 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Data files
+*.h5
