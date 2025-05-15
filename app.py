@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request, Form
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, RedirectResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import uvicorn
@@ -96,6 +96,21 @@ async def submit(
 @app.get("/quit", response_class=HTMLResponse)
 async def quit(request: Request):
     return templates.TemplateResponse("quit.html", {"request": request})
+
+@app.get("/download-responses")
+async def download_responses():
+    """Endpoint to download the responses.json file"""
+    if os.path.exists(RESPONSES_FILE):
+        return FileResponse(
+            path=RESPONSES_FILE, 
+            filename="responses.json",
+            media_type="application/json"
+        )
+    else:
+        return JSONResponse(
+            content={"error": "No responses file found"},
+            status_code=404
+        )
 
 if __name__ == "__main__":
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
