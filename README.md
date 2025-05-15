@@ -42,12 +42,24 @@ http://localhost:8000
 3. After submitting your answer, a new pair of images will be shown.
 4. Click the "Quit" button when you want to end the session.
 5. All responses are saved in a file called `responses.json` in the application directory.
+6. After quitting, you can download the responses directly using the "Download Responses" button.
 
 ## Features
 
 - **Consistent Image Display**: All images are displayed with the same height for easy comparison, regardless of their original dimensions
 - **Keyboard Shortcuts**: Use `S` key for "Same" and `D` key for "Different" to quickly respond
 - **Response Tracking**: All user responses are automatically saved with timestamps
+- **Admin Dashboard**: Accessible via the "Admin" link in the top-right corner or directly at `/admin`
+- **Download Responses**: Download collected responses in JSON format from multiple locations
+
+## Accessing Response Data
+
+There are multiple ways to access the response data:
+
+1. **After Quitting**: When you end a session, a "Download Responses" button appears on the quit page
+2. **Admin Dashboard**: Visit the `/admin` page to see response statistics and download data
+3. **Direct URL**: Access `/download-responses` directly to download the JSON file
+4. **Local File**: The `responses.json` file is stored in the application directory
 
 ## Response Data Format
 
