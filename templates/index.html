@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 15px 0;
+            gap: 10px;
+        }
+        .image-box {
+            border: 1px solid #ddd;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+        .image-box p {
+            margin: 0;
+            padding: 2px 0;
+            font-weight: bold;
+        }
+        .image-wrapper {
+            height: 220px; /* Reduced fixed height for all images */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            max-width: 100%;
+            height: 220px; /* Reduced fixed height for all images */
+            object-fit: contain; /* Maintains aspect ratio while fitting in the container */
+        }
+        .buttons {
+            margin: 10px 0;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 0 5px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+        }
+        .same-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .different-button {
+            background-color: #f44336;
+            color: white;
+        }
+        .quit-button {
+            background-color: #555;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Comparison</h2>
+    <p>Are these two images the same or different? <small>(Press <strong>S</strong> for Same, <strong>D</strong> for Different)</small></p>
+    
+    <div class="image-container">
+        <div class="image-box">
+            <p>Stimulus</p>
+            <div class="image-wrapper">
+                <img src="/fig/{{ image1 }}" alt="Stimulus Image">
+            </div>
+        </div>
+        <div class="image-box">
+            <p>Response</p>
+            <div class="image-wrapper">
+                <img src="/fig/{{ image2 }}" alt="Response Image">
+            </div>
+        </div>
+    </div>
+    
+    <div class="buttons">
+        <form id="comparisonForm" action="/submit" method="post">
+            <input type="hidden" name="image1" value="{{ image1 }}">
+            <input type="hidden" name="image2" value="{{ image2 }}">
+            <button id="sameButton" type="submit" name="same" value="true" class="same-button">Same</button>
+            <button id="differentButton" type="submit" name="same" value="false" class="different-button">Different</button>
+            <a href="/quit"><button type="button" class="quit-button">Quit</button></a>
+        </form>
+    </div>
+
+    <script>
+        // Add keyboard event listener for shortcuts
+        document.addEventListener('keydown', function(event) {
+            // 's' key for Same
+            if (event.key === 's' || event.key === 'S') {
+                event.preventDefault();
+                document.getElementById('sameButton').click();
+            }
+            // 'd' key for Different
+            else if (event.key === 'd' || event.key === 'D') {
+                event.preventDefault();
+                document.getElementById('differentButton').click();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,788 @@
+[
+  {
+    "timestamp": "2025-05-15T20:59:14.461871",
+    "image1": "Andrei_NW_songs_manual_stimulus_023.png",
+    "image2": "Andrei_NW_songs_manual_response_050.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:18.031434",
+    "image1": "Andrei_NW_songs_manual_response_110.png",
+    "image2": "Andrei_NW_songs_manual_response_079.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:19.815239",
+    "image1": "Andrei_NW_songs_manual_stimulus_116.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_073.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:25.500819",
+    "image1": "Andrei_NW_songs_manual_stimulus_003.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_058.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:30.186386",
+    "image1": "Andrei_NW_songs_manual_stimulus_074.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_028.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:31.844248",
+    "image1": "Andrei_NW_songs_manual_stimulus_115.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_050.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:33.546295",
+    "image1": "Andrei_NW_songs_manual_stimulus_091.png",
+    "image2": "Andrei_NW_songs_manual_response_046.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:35.063174",
+    "image1": "Andrei_NW_songs_manual_response_087.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_088.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:36.856729",
+    "image1": "Andrei_NW_songs_manual_response_079.png",
+    "image2": "Andrei_NW_songs_manual_response_046.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:43.052864",
+    "image1": "Andrei_NW_songs_manual_stimulus_000.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_086.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:44.437953",
+    "image1": "Andrei_NW_songs_manual_response_074.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_074.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:45.445424",
+    "image1": "Andrei_NW_songs_manual_response_055.png",
+    "image2": "Andrei_NW_songs_manual_response_100.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:47.368841",
+    "image1": "Andrei_NW_songs_manual_response_115.png",
+    "image2": "Andrei_NW_songs_manual_response_024.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:49.087936",
+    "image1": "Andrei_NW_songs_manual_stimulus_019.png",
+    "image2": "Andrei_NW_songs_manual_response_028.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:50.742512",
+    "image1": "Andrei_NW_songs_manual_response_112.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_017.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:52.188959",
+    "image1": "Andrei_NW_songs_manual_stimulus_115.png",
+    "image2": "Andrei_NW_songs_manual_response_098.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:53.525902",
+    "image1": "Andrei_NW_songs_manual_stimulus_016.png",
+    "image2": "Andrei_NW_songs_manual_response_063.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:54.862673",
+    "image1": "Andrei_NW_songs_manual_stimulus_036.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_072.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:56.616504",
+    "image1": "Andrei_NW_songs_manual_response_065.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_000.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T20:59:58.007160",
+    "image1": "Andrei_NW_songs_manual_response_041.png",
+    "image2": "Andrei_NW_songs_manual_response_022.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:48.415811",
+    "image1": "Andrei_NW_songs_manual_response_050.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_111.png",
+    "same": true
+  },
+  {
+    "timestamp": "2025-05-15T21:04:50.041457",
+    "image1": "Andrei_NW_songs_manual_response_068.png",
+    "image2": "Andrei_NW_songs_manual_response_006.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:50.948299",
+    "image1": "Andrei_NW_songs_manual_stimulus_056.png",
+    "image2": "Andrei_NW_songs_manual_response_055.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:52.254343",
+    "image1": "Andrei_NW_songs_manual_stimulus_039.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_091.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:53.559450",
+    "image1": "Andrei_NW_songs_manual_stimulus_078.png",
+    "image2": "Andrei_NW_songs_manual_response_022.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:54.502635",
+    "image1": "Andrei_NW_songs_manual_stimulus_069.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_061.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:55.722513",
+    "image1": "Andrei_NW_songs_manual_response_044.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_093.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:56.821554",
+    "image1": "Andrei_NW_songs_manual_response_099.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_048.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:57.819370",
+    "image1": "Andrei_NW_songs_manual_stimulus_005.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_125.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:04:59.026570",
+    "image1": "Andrei_NW_songs_manual_stimulus_097.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_046.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:00.230127",
+    "image1": "Andrei_NW_songs_manual_response_081.png",
+    "image2": "Andrei_NW_songs_manual_response_038.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:01.474119",
+    "image1": "Andrei_NW_songs_manual_stimulus_000.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_052.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:02.561535",
+    "image1": "Andrei_NW_songs_manual_stimulus_025.png",
+    "image2": "Andrei_NW_songs_manual_response_021.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:23.251312",
+    "image1": "Andrei_NW_songs_manual_stimulus_068.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_017.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:23.820030",
+    "image1": "Andrei_NW_songs_manual_response_083.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_016.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:24.311436",
+    "image1": "Andrei_NW_songs_manual_response_029.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_064.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:25.074862",
+    "image1": "Andrei_NW_songs_manual_response_086.png",
+    "image2": "Andrei_NW_songs_manual_response_088.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:25.840048",
+    "image1": "Andrei_NW_songs_manual_response_007.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_058.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:26.431616",
+    "image1": "Andrei_NW_songs_manual_response_115.png",
+    "image2": "Andrei_NW_songs_manual_response_040.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:26.983019",
+    "image1": "Andrei_NW_songs_manual_stimulus_056.png",
+    "image2": "Andrei_NW_songs_manual_response_112.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:27.438469",
+    "image1": "Andrei_NW_songs_manual_response_101.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_049.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:27.861625",
+    "image1": "Andrei_NW_songs_manual_response_089.png",
+    "image2": "Andrei_NW_songs_manual_response_113.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:28.121675",
+    "image1": "Andrei_NW_songs_manual_stimulus_127.png",
+    "image2": "Andrei_NW_songs_manual_response_026.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:28.301170",
+    "image1": "Andrei_NW_songs_manual_stimulus_013.png",
+    "image2": "Andrei_NW_songs_manual_response_099.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:28.475382",
+    "image1": "Andrei_NW_songs_manual_stimulus_074.png",
+    "image2": "Andrei_NW_songs_manual_response_017.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:05:28.634022",
+    "image1": "Andrei_NW_songs_manual_response_090.png",
+    "image2": "Andrei_NW_songs_manual_response_105.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:16:57.870088",
+    "image1": "Andrei_NW_songs_manual_stimulus_070.png",
+    "image2": "Andrei_NW_songs_manual_response_115.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:12.724674",
+    "image1": "Andrei_NW_songs_manual_response_095.png",
+    "image2": "Andrei_NW_songs_manual_response_031.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:13.846439",
+    "image1": "Andrei_NW_songs_manual_stimulus_125.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_018.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:14.751370",
+    "image1": "Andrei_NW_songs_manual_response_061.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_034.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:24.539307",
+    "image1": "Andrei_NW_songs_manual_response_079.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_070.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:26.494271",
+    "image1": "Andrei_NW_songs_manual_stimulus_016.png",
+    "image2": "Andrei_NW_songs_manual_response_057.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:28.326881",
+    "image1": "Andrei_NW_songs_manual_response_042.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_080.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:29.229396",
+    "image1": "Andrei_NW_songs_manual_stimulus_065.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_006.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:31.328139",
+    "image1": "Andrei_NW_songs_manual_response_070.png",
+    "image2": "Andrei_NW_songs_manual_response_122.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:32.168666",
+    "image1": "Andrei_NW_songs_manual_stimulus_109.png",
+    "image2": "Andrei_NW_songs_manual_response_009.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:33.252004",
+    "image1": "Andrei_NW_songs_manual_response_017.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_072.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:34.581536",
+    "image1": "Andrei_NW_songs_manual_response_068.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_092.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:35.699947",
+    "image1": "Andrei_NW_songs_manual_response_119.png",
+    "image2": "Andrei_NW_songs_manual_response_079.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:36.779646",
+    "image1": "Andrei_NW_songs_manual_stimulus_025.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_086.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:38.084524",
+    "image1": "Andrei_NW_songs_manual_stimulus_039.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_021.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:39.618492",
+    "image1": "Andrei_NW_songs_manual_response_017.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_104.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:40.789599",
+    "image1": "Andrei_NW_songs_manual_stimulus_111.png",
+    "image2": "Andrei_NW_songs_manual_response_029.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:41.699226",
+    "image1": "Andrei_NW_songs_manual_stimulus_006.png",
+    "image2": "Andrei_NW_songs_manual_response_040.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:18:42.863065",
+    "image1": "Andrei_NW_songs_manual_response_081.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_045.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:07.636167",
+    "image1": "Andrei_NW_songs_manual_stimulus_111.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_073.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:14.617910",
+    "image1": "Andrei_NW_songs_manual_response_000.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_086.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:15.853044",
+    "image1": "Andrei_NW_songs_manual_stimulus_012.png",
+    "image2": "Andrei_NW_songs_manual_response_016.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:26.034474",
+    "image1": "Andrei_NW_songs_manual_stimulus_097.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_051.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:27.319328",
+    "image1": "Andrei_NW_songs_manual_response_073.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_082.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:28.507252",
+    "image1": "Andrei_NW_songs_manual_response_058.png",
+    "image2": "Andrei_NW_songs_manual_response_046.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:29.482291",
+    "image1": "Andrei_NW_songs_manual_response_076.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_111.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:30.662084",
+    "image1": "Andrei_NW_songs_manual_response_093.png",
+    "image2": "Andrei_NW_songs_manual_response_075.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:31.596631",
+    "image1": "Andrei_NW_songs_manual_stimulus_081.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_119.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:32.715381",
+    "image1": "Andrei_NW_songs_manual_stimulus_066.png",
+    "image2": "Andrei_NW_songs_manual_response_095.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:33.601787",
+    "image1": "Andrei_NW_songs_manual_response_024.png",
+    "image2": "Andrei_NW_songs_manual_response_039.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:36.173932",
+    "image1": "Andrei_NW_songs_manual_stimulus_114.png",
+    "image2": "Andrei_NW_songs_manual_response_020.png",
+    "same": true
+  },
+  {
+    "timestamp": "2025-05-15T21:19:37.879711",
+    "image1": "Andrei_NW_songs_manual_stimulus_021.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_089.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:38.736169",
+    "image1": "Andrei_NW_songs_manual_stimulus_017.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_065.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:39.393771",
+    "image1": "Andrei_NW_songs_manual_stimulus_126.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_010.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:40.630651",
+    "image1": "Andrei_NW_songs_manual_response_041.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_047.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:41.671612",
+    "image1": "Andrei_NW_songs_manual_response_042.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_058.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:43.182321",
+    "image1": "Andrei_NW_songs_manual_response_024.png",
+    "image2": "Andrei_NW_songs_manual_response_068.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:44.082980",
+    "image1": "Andrei_NW_songs_manual_stimulus_112.png",
+    "image2": "Andrei_NW_songs_manual_response_049.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:45.043473",
+    "image1": "Andrei_NW_songs_manual_response_110.png",
+    "image2": "Andrei_NW_songs_manual_response_060.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:46.288704",
+    "image1": "Andrei_NW_songs_manual_stimulus_075.png",
+    "image2": "Andrei_NW_songs_manual_response_036.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:47.570551",
+    "image1": "Andrei_NW_songs_manual_stimulus_130.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_000.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:49.716040",
+    "image1": "Andrei_NW_songs_manual_response_003.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_069.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:51.192986",
+    "image1": "Andrei_NW_songs_manual_response_035.png",
+    "image2": "Andrei_NW_songs_manual_response_108.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:55.977916",
+    "image1": "Andrei_NW_songs_manual_stimulus_051.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_049.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:56.922629",
+    "image1": "Andrei_NW_songs_manual_response_002.png",
+    "image2": "Andrei_NW_songs_manual_response_033.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:58.183459",
+    "image1": "Andrei_NW_songs_manual_stimulus_062.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_107.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:19:59.233238",
+    "image1": "Andrei_NW_songs_manual_response_099.png",
+    "image2": "Andrei_NW_songs_manual_response_071.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:00.472246",
+    "image1": "Andrei_NW_songs_manual_stimulus_055.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_020.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:01.819949",
+    "image1": "Andrei_NW_songs_manual_response_035.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_119.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:02.747557",
+    "image1": "Andrei_NW_songs_manual_response_119.png",
+    "image2": "Andrei_NW_songs_manual_response_110.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:03.806848",
+    "image1": "Andrei_NW_songs_manual_stimulus_121.png",
+    "image2": "Andrei_NW_songs_manual_response_061.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:12.969508",
+    "image1": "Andrei_NW_songs_manual_stimulus_094.png",
+    "image2": "Andrei_NW_songs_manual_response_081.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:22.524828",
+    "image1": "Andrei_NW_songs_manual_stimulus_021.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_039.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:23.410271",
+    "image1": "Andrei_NW_songs_manual_response_038.png",
+    "image2": "Andrei_NW_songs_manual_response_051.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:24.640996",
+    "image1": "Andrei_NW_songs_manual_response_078.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_092.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:25.623857",
+    "image1": "Andrei_NW_songs_manual_stimulus_081.png",
+    "image2": "Andrei_NW_songs_manual_response_024.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:26.832721",
+    "image1": "Andrei_NW_songs_manual_response_040.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_113.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:28.118453",
+    "image1": "Andrei_NW_songs_manual_stimulus_115.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_130.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:29.976193",
+    "image1": "Andrei_NW_songs_manual_stimulus_110.png",
+    "image2": "Andrei_NW_songs_manual_response_104.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:32.981842",
+    "image1": "Andrei_NW_songs_manual_stimulus_028.png",
+    "image2": "Andrei_NW_songs_manual_response_058.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:35.923338",
+    "image1": "Andrei_NW_songs_manual_stimulus_113.png",
+    "image2": "Andrei_NW_songs_manual_response_072.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:37.007147",
+    "image1": "Andrei_NW_songs_manual_response_006.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_086.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:38.432688",
+    "image1": "Andrei_NW_songs_manual_response_082.png",
+    "image2": "Andrei_NW_songs_manual_response_063.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:41.218988",
+    "image1": "Andrei_NW_songs_manual_response_088.png",
+    "image2": "Andrei_NW_songs_manual_response_092.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:42.525837",
+    "image1": "Andrei_NW_songs_manual_response_074.png",
+    "image2": "Andrei_NW_songs_manual_response_014.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:44.443202",
+    "image1": "Andrei_NW_songs_manual_response_018.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_114.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:45.907927",
+    "image1": "Andrei_NW_songs_manual_stimulus_027.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_031.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:47.195170",
+    "image1": "Andrei_NW_songs_manual_stimulus_090.png",
+    "image2": "Andrei_NW_songs_manual_response_019.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:48.193374",
+    "image1": "Andrei_NW_songs_manual_stimulus_022.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_090.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:49.376165",
+    "image1": "Andrei_NW_songs_manual_response_084.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_084.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:50.689128",
+    "image1": "Andrei_NW_songs_manual_response_038.png",
+    "image2": "Andrei_NW_songs_manual_response_081.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:52.277892",
+    "image1": "Andrei_NW_songs_manual_stimulus_023.png",
+    "image2": "Andrei_NW_songs_manual_response_106.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:54.518717",
+    "image1": "Andrei_NW_songs_manual_response_057.png",
+    "image2": "Andrei_NW_songs_manual_response_059.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:55.909718",
+    "image1": "Andrei_NW_songs_manual_stimulus_112.png",
+    "image2": "Andrei_NW_songs_manual_response_038.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:20:57.806765",
+    "image1": "Andrei_NW_songs_manual_response_021.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_060.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:01.681620",
+    "image1": "Andrei_NW_songs_manual_stimulus_047.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_122.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:02.460518",
+    "image1": "Andrei_NW_songs_manual_response_118.png",
+    "image2": "Andrei_NW_songs_manual_response_112.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:08.566844",
+    "image1": "Andrei_NW_songs_manual_response_073.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_076.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:10.542720",
+    "image1": "Andrei_NW_songs_manual_stimulus_009.png",
+    "image2": "Andrei_NW_songs_manual_response_089.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:12.468196",
+    "image1": "Andrei_NW_songs_manual_stimulus_068.png",
+    "image2": "Andrei_NW_songs_manual_response_060.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:13.292910",
+    "image1": "Andrei_NW_songs_manual_stimulus_020.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_121.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:14.641097",
+    "image1": "Andrei_NW_songs_manual_stimulus_116.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_012.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:15.656975",
+    "image1": "Andrei_NW_songs_manual_stimulus_059.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_128.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:16.679168",
+    "image1": "Andrei_NW_songs_manual_response_016.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_093.png",
+    "same": false
+  },
+  {
+    "timestamp": "2025-05-15T21:21:17.685718",
+    "image1": "Andrei_NW_songs_manual_stimulus_125.png",
+    "image2": "Andrei_NW_songs_manual_stimulus_089.png",
+    "same": false
+  }
+]
