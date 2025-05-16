@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, Form
+from fastapi import FastAPI, Request, Form, Cookie, Response
 from fastapi.responses import HTMLResponse, RedirectResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -7,7 +7,7 @@ import os
 import random
 import json
 from datetime import datetime
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 import glob
 
 app = FastAPI(title="Image Comparison App")
@@ -40,9 +40,10 @@ def get_random_image_pair() -> Tuple[str, str]:
     return relative_paths[0], relative_paths[1]
 
 # Function to save user responses
-def save_response(image1: str, image2: str, same: bool) -> None:
+def save_response(image1: str, image2: str, same: bool, username: str) -> None:
     response_data = {
         "timestamp": datetime.now().isoformat(),
+        "username": username,
         "image1": image1,
         "image2": image2,
         "same": same
@@ -65,7 +66,11 @@ def save_response(image1: str, image2: str, same: bool) -> None:
         json.dump(responses, f, indent=2)
 
 @app.get("/", response_class=HTMLResponse)
-async def index(request: Request):
+async def index(request: Request, username: Optional[str] = Cookie(None)):
+    # If no username cookie exists, redirect to login page
+    if not username:
+        return RedirectResponse(url="/login", status_code=303)
+    
     # Get a random pair of images
     image1, image2 = get_random_image_pair()
     
@@ -74,28 +79,47 @@ async def index(request: Request):
         {
             "request": request, 
             "image1": image1, 
-            "image2": image2
+            "image2": image2,
+            "username": username
         }
     )
+
+@app.get("/login", response_class=HTMLResponse)
+async def login_page(request: Request):
+    return templates.TemplateResponse("login.html", {"request": request})
+
+@app.post("/login", response_class=RedirectResponse)
+async def login(username: str = Form(...)):
+    response = RedirectResponse(url="/", status_code=303)
+    response.set_cookie(key="username", value=username)
+    return response
 
 @app.post("/submit", response_class=RedirectResponse)
 async def submit(
     image1: str = Form(...), 
     image2: str = Form(...), 
-    same: str = Form(...)
+    same: str = Form(...),
+    username: Optional[str] = Cookie(None)
 ):
     # Convert string 'true'/'false' to boolean
     is_same = (same.lower() == 'true')
     
-    # Save the response
-    save_response(image1, image2, is_same)
+    # Save the response with username
+    if username:
+        save_response(image1, image2, is_same, username)
+    else:
+        # Fallback in case username is not set
+        save_response(image1, image2, is_same, "anonymous")
     
     # Redirect back to the main page for the next pair
     return RedirectResponse(url="/", status_code=303)
 
 @app.get("/quit", response_class=HTMLResponse)
-async def quit(request: Request):
-    return templates.TemplateResponse("quit.html", {"request": request})
+async def quit(request: Request, username: Optional[str] = Cookie(None)):
+    response = templates.TemplateResponse("quit.html", {"request": request, "username": username})
+    # Clear the username cookie
+    response.delete_cookie(key="username")
+    return response
 
 @app.get("/download-responses")
 async def download_responses():
@@ -116,11 +140,19 @@ async def download_responses():
 async def admin(request: Request):
     """Admin page to monitor responses and download data"""
     response_count = 0
+    users = set()
+    
     if os.path.exists(RESPONSES_FILE):
         with open(RESPONSES_FILE, "r") as f:
             try:
                 responses = json.load(f)
                 response_count = len(responses)
+                
+                # Extract unique usernames from responses
+                for response in responses:
+                    if "username" in response:
+                        users.add(response["username"])
+                    
             except json.JSONDecodeError:
                 response_count = 0
     
@@ -128,7 +160,9 @@ async def admin(request: Request):
         "admin.html", 
         {
             "request": request,
-            "response_count": response_count
+            "response_count": response_count,
+            "user_count": len(users),
+            "users": sorted(list(users))
         }
     )
 

@@ -29,7 +29,7 @@
 <body>
     <h1>Session Ended</h1>
     <div class="message">
-        <p>Thank you for participating!</p>
+        <p>Thank you for participating{% if username %}, <strong>{{ username }}</strong>{% endif %}!</p>
         <p>Your responses have been saved.</p>
     </div>
     <div style="margin-bottom: 20px;">
